@@ -79,7 +79,7 @@ public class RoundImageView extends ImageView {
         if (getDrawable() == null) {
             return;
         }
-        setUpShaper();
+        setUpShader();
         if (type == TYPE_ROUNDCORNER) {
             //圆角
             canvas.drawRoundRect(mRoundRect, mBorderRadius, mBorderRadius, mPaint);
@@ -99,7 +99,7 @@ public class RoundImageView extends ImageView {
     /**
      * 初始化BitmapShaper
      */
-    private void setUpShaper() {
+    private void setUpShader() {
         Drawable drawable = getDrawable();
         if (drawable == null) {
             return;
