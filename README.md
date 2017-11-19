@@ -3,7 +3,7 @@
 在做项目的时候有时总会用到一些带圆角的背景，有时候自己都是用shape图形做的。<br>
 但是有时候在做一些图片加载的时候，有时我们会用到带圆角的ImageView，或者圆形ImageView。<br>
 遇到这种需求的时候，自己一般是网上搜一下，看有别人写好的圆角或圆形的ImageView，就直接拷贝进项目中用了，也不太清楚它的具体实现。<br>
-最近开了一些博客文章，照着http://blog.csdn.net/lmj623565791/article/details/41967509写了一下代码实现。<br>
+最近看了一些博客文章，照着http://blog.csdn.net/lmj623565791/article/details/41967509写了一下代码实现。<br>
 介绍一下BitmapShader<br>
 
    BitmapShader是Shader的子类，可以通过Paint.setShader（Shader shader）进行设置.<br>
