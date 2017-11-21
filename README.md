@@ -46,6 +46,10 @@
         mBitmapShader.setLocalMatrix(mMatrix);
         //设置shaper
         mPaint.setShader(mBitmapShader);
-       }
-
+       }
+       
+-----------------------------------------------------
+2017.11.21补充
+今天看了主流的图片加载框架Glide，Picasso，,他们是通过Transformation来实现的圆角图片的加载，源码实现中也是通过使用BitmapShader实现的。
+Fresco有SimpleDraweeView，支持直接在布局文件中设置圆角属性，但是使用Fresco代码侵入性比较大。
 
